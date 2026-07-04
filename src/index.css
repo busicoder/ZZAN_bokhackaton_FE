@@ -1,7 +1,49 @@
-:root{
-  --normal-color: #000000;
-  --highlight-color: #FF6B5C;
-  --background-color: #FFFFFF;
-  --border-color: #EAEAEA;
-  --footer-height: 64px;
+:root {
+  /* Color */
+  --color-primary: #ff6b5c;
+  --color-primary-soft: #fff5f3;
+  --color-text: #1f2329;
+  --color-text-muted: #6b7280;
+  --color-text-disabled: #9ca3af;
+  --color-background: #f5f6f7;
+  --color-surface: #ffffff;
+  --color-input: #f5f6f7;
+  --color-border: #e5e7eb;
+
+  /* Radius */
+  --radius-small: 10px;
+  --radius-medium: 14px;
+  --radius-large: 16px;
+  --radius-modal: 20px;
+  --radius-round: 9999px;
+
+  /* Spacing */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-7: 28px;
+  --space-8: 32px;
+
+  /* Typography */
+  --font-family: Pretendard, sans-serif;
+  --font-size-small: 12px;
+  --font-size-caption: 13px;
+  --font-size-body: 14px;
+  --font-size-input: 15px;
+  --font-size-title-small: 17px;
+  --font-size-title: 26px;
+
+  /* Layout */
+  --mobile-width: 390px;
+  --input-height: 50px;
+  --button-height: 56px;
+  --footer-height: 65px;
+  --header-height: 65px;
+
+  /* Shadow */
+  --shadow-modal: 0 16px 40px rgb(0 0 0 / 20%);
+  --focus-ring: 0 0 0 3px rgb(255 107 92 / 15%);
 }

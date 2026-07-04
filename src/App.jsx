@@ -1,12 +1,11 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Login from './Auth/Login'
 import SignUp from './Auth/SignUp'
 import Layout from './Page/Layout'
 import NotFound from './Page/NotFound'
 import UserPage from './Student/UserPage'
 import OwnerPage from './Owner/OwnerPage'
-import ReservationPage from './Student/Reserve'
 import AuthGate from './Auth/AuthGate'
+import StoreListPage from './Student/StoreList'
 
 function App() {
 
@@ -15,12 +14,11 @@ function App() {
       <Routes>
         {/* public */}
         <Route path="/" element={<AuthGate/>} />
-        <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
 
         {/* student */}
         <Route path="/mypage" element={<Layout content={<UserPage />} />} />
-        <Route path="/reserve" element={<Layout content={<ReservationPage />} />} />
+        <Route path="/reserve" element={<Layout content={<StoreListPage />} />} />
 
         {/* owner */}
         <Route path="/owner" element={<Layout content={<OwnerPage />} />} />
